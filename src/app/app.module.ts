@@ -9,6 +9,7 @@ import { SingleProduct } from './pages/single-product/single-product.component';
 import { ContactUs } from './pages/contact-us/contact-us.component';
 import { AboutUs } from './pages/about-us/about-us.component';
 import { NavBar } from './ui/nav-bar/nav-bar.component';
+import { Footer} from './ui/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavBar } from './ui/nav-bar/nav-bar.component';
     SingleProduct,
     ContactUs,
     AboutUs,
-    NavBar
+    NavBar,
+    Footer
   ],
   imports: [
     BrowserModule,
