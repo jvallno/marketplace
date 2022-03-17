@@ -10,6 +10,7 @@ import { ContactUs } from './pages/contact-us/contact-us.component';
 import { AboutUs } from './pages/about-us/about-us.component';
 import { NavBar } from './ui/nav-bar/nav-bar.component';
 import { Footer} from './ui/footer/footer.component';
+import { Card } from './shared/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Footer} from './ui/footer/footer.component';
     ContactUs,
     AboutUs,
     NavBar,
-    Footer
+    Footer,
+    Card
   ],
   imports: [
     BrowserModule,
